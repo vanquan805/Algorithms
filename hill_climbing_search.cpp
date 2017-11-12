@@ -121,7 +121,10 @@ int main(){
 	Tree *search = hill_climbing_search(L, 0);
 	printf("\nKet Thuc qua trinh tim kiem\n");
 //	PushMin(S, T);
-	printf("%d\t", search->value);
+//	if(search!=NULL){
+		printf("%d\t", search->value);
+//	}
+//	
 //	printf("%d\t", Pop(S)->value);
 //	printf("%d", Pop(S)->value);
 	return 0;
